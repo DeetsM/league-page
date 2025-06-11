@@ -234,16 +234,16 @@
     <h2 class="sectionHeading" bind:this={six}>Section 6 League Finances</h2>
     
     <h3 bind:this={sixOne}>6.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through e-transfer to Aditya and will be collected at the draft. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, their roster is locked until they do so</p>
+    <p>League dues are set at ${dues}. Dues are collected through e-transfer to Aditya and will be collected at the draft. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, their roster is locked until they do so</p>
     
     <h3 bind:this={sixTwo}>6.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 7}$</li>
-        <li>2nd place: {dues}$</li>
-        <li>3 props: {dues/3}$ each and will be awarded at the end of Weeks 4, 8 and 12 encompassing 4 weeks each (1 - 4, 5 - 8, 9 - 12).</li>
-        <li>1 props: {dues/3}$ will be awarded at the end of the regular season that encompasses the entire season.</li>
+        <li>1st place: ${dues * 7}</li>
+        <li>2nd place: ${dues}</li>
+        <li>3 props: ${dues/3} each and will be awarded at the end of Weeks 4, 8 and 12 encompassing 4 weeks each (1 - 4, 5 - 8, 9 - 12).</li>
+        <li>1 props: ${dues/3} will be awarded at the end of the regular season that encompasses the entire season.</li>
     </ul>
-    <p>Props to be decided befoer the start of the season</p>
+    <p>Props to be decided before the start of the season</p>
 
 </div>
