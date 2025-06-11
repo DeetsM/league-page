@@ -1,12 +1,11 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
-    let two, twoOne, twoTwo, twoThree;
-    let three, threeOne;
+    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneThree;
+    let two, twoOne, twoTwo;
+    let three, threeOne, threeTwo;
     let four, fourOne, fourTwo;
-    let five, fiveOne;
-    let six, sixOne, sixTwo, sixThree;
-    let seven, sevenOne, sevenTwo, sevenThree;
+    let five, fiveOne, fiveTwo;
+    let six, sixOne, sixTwo;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -121,7 +120,7 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Scoring System</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Scoring System</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.1 Random Scoring</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Random Scoring</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Postseason</h3>
     
