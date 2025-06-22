@@ -13,7 +13,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Home of the League of Ordinary Gentlemen</p>
+  <p>Home of the League of Ordinary Gentlemen.</p>
 `;
 
 /*   STEP 3   */
