@@ -8,7 +8,7 @@
 	const dispatch = createEventDispatcher();
 
     const submit = () => {
-        dispatch('createComment', {comment, author});
+        dispatch('addComment', {comment, author});
     }
 
     let comment = '';
